@@ -59,3 +59,4 @@ Caso queira verificar a cobertura, digite:
 ```bash
 $ npm run testCoverage
 ```
+Pronto! Seu back-end está instalado.
