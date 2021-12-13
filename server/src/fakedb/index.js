@@ -1,0 +1,4 @@
+exports.DATA = {
+    cars: [],
+    motocycles: []
+}
