@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Krub', sans-serif;
+
+  display: fled
+}
+
+h5, h1 , p {
+  color: #f7f1e3;
+}
+
+button {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  box-shadow: none !important;
+
+  &:hover {
+    transition: .5, ease-in-out !important;
+    background-color: #F2F2F2 !important;
+    color: black !important;
+
+  }
+
+}
+
+.accordion-button:not(.collapsed) {
+  color: #f7f1e3 !important;   
+}
+
+.accordion-button {
+  box-shadow: none !important;
+  
+}
+
+.accordion-button::after {
+  background-image: none !important;
+}
+
+.btn-group-vertical>.btn-check:checked+.btn,
+.btn-group-vertical>.btn-check:focus+.btn,
+.btn-group-vertical>.btn.active, .btn-group-vertical>.btn:active,
+.btn-group-vertical>.btn:focus, .btn-group-vertical>.btn:hover,
+.btn-group>.btn-check:checked+.btn, .btn-group>.btn-check:focus+.btn,
+.btn-group>.btn.active, .btn-group>.btn:active, .btn-group>.btn:focus,
+.btn-group>.btn:hover {
+  background-color: #F2F2F2 !important;
+  color: black !important;
+}
+
+
+
+

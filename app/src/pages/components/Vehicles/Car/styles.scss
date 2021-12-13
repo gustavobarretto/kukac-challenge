@@ -1,0 +1,42 @@
+.cars-values {
+    height: 25px; 
+    padding: 2px;
+    margin: 5px;
+    border: 3px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    font-family: 'Krub', sans-serif;
+
+    &:focus {
+        outline: none;
+        border: 3px solid #C4C4C4;
+    }
+
+}
+
+.cars-box-numbers {
+    min-height: 25px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+
+    display: flex;
+    justify-content: center;
+    align-items: ceter;  
+}
+
+.cars-box-numbers tr,
+.cars-box-numbers th {
+    width:25%;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.cars-numbers {
+    justify-self: center;
+    align-self: center;
+}

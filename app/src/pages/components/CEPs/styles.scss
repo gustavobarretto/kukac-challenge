@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+.accordion-ceps {
+    margin-bottom: 15px;
+}
+
+.accordion-ceps-header:hover h5 {
+    color: black;   
+   
+}
+
+label {
+    color: #F4F4F4;
+}
+
+.accordion-ceps-title:hover {
+    transition: .5s ease-in-out;
+    background-color: #C4C4C4;
+}
+
+.panel-ceps {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    
+}
+
+.panel-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.ceps-values {
+    height: 25px; 
+    padding: 2px;
+    margin: 5px;
+    border: 3px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    font-family: 'Krub', sans-serif;
+
+    &:focus {
+        outline: none;
+        border: 3px solid #C4C4C4;
+    }
+
+}
+
+.desactive {
+    display: none;
+    overflow: hidden;
+}
+
+.ceps-box-numbers {
+    min-height: 25px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #2c2c54;
+
+    display: flex;
+    justify-content: center;
+    align-items: ceter;
+}
+
+.ceps-numbers {
+    justify-self: center;
+    align-self: center;
+
+}
+
+.buttons {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button {
+    border: 1px #000000 solid;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    padding: 5px;
+    width: 7rem;
+    cursor: pointer;
+}
